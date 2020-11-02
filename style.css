@@ -1,0 +1,156 @@
+ @import "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css";
+
+ body {
+   margin: 0;
+   padding: 0;
+   font-family: 'Merriweather Sans', sans-serif;
+   background-image: url("home.PNG");
+   background-size: cover;
+ }
+
+ .top-container {
+   background-color: none;
+   color: #fafaf6;
+   font-family: 'Headland One', serif;
+   font-size: 15px;
+   margin-top: 3%;
+   margin-left: 4%;
+ }
+
+ .sec {
+   width: 70%;
+   text-align: left;
+   color: #fafaf6 ;
+   margin-left: 10px;
+ }
+
+ #first {
+   position: absolute;
+ }
+
+ #second {
+   position: absolute;
+   margin-left: 78%;
+   margin-top: 12%;
+ }
+
+ #third {
+   position: relative;
+   height: 10%;
+   background-color: none;
+   margin-bottom: 0;
+   width: 100%;
+   margin-top: 50%;
+   text-align: center;
+   color: #fafaf6;
+ }
+
+ .au {
+   position: relative;
+   background-color: none;
+   margin-top: auto;
+   margin-left: 60%;
+   color: #fafaf6;
+   font-size: 20px;
+   text-decoration: underline;
+ }
+
+ .news {
+   position: absolute;
+   background-color: none;
+   margin-left: 1.5%;
+   color: #fafaf6;
+   font-size: 20px;
+   text-decoration: underline;
+ }
+
+ .rs {
+   position: absolute;
+   background-color: none;
+   margin-left: 6.8%;
+   color:#fafaf6;
+   font-size: 20px;
+   text-decoration: underline;
+ }
+
+ .com {
+   position: absolute;
+   background-color: none;
+   margin-left: 14.7%;
+   color: #fafaf6;
+   font-size: 20px;
+   text-decoration: underline;
+ }
+
+ .sup{
+   position: absolute;
+   background-color: none;
+   margin-left: 24.2%;
+   color: #fafaf6;
+   font-size: 20px;
+   text-decoration: underline;
+ }
+
+ .intro {
+   position: relative;
+   color: #fafaf6;
+   margin-top: 3%;
+   margin-left: 3%;
+   font-size: 20px;
+ }
+
+ .vl {
+   border-left: 1.75px solid #fafaf6;
+   height: 70%;
+   position: absolute;
+   left: 75%;
+   margin-left: -3px;
+   top: 20%;
+ }
+
+ .login {
+   width: 225px;
+   position: absolute;
+   margin-top: 17%;
+   margin-left: 78%;
+   color: #fafaf6;
+ }
+
+ .hr {
+   width: 100%;
+   background-color: #fafaf6;
+   color: #fafaf6;
+   border: solid 1px #fafaf6;
+ }
+
+ .login h1 {
+   font-size: 2em;
+   color: #fafaf6;
+ }
+
+ .textbox {
+   width: 100%;
+   font-size: 17px;
+   padding: 8px 0;
+   margin: 8px 0;
+ }
+
+ .btn {
+   background-color: none;
+   width: 40%;
+   font-size: 15px;
+   margin-right: 17px;
+   color: #fafaf6;
+ }
+
+ .bottom-cont {
+   background-color: none;
+   color: #fafaf6;
+   float: left;
+ }
+
+ .footer-link {
+   color: #fafaf6;
+   font-size: 20px;
+   padding: 15px;
+ }

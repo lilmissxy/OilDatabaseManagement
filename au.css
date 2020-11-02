@@ -1,0 +1,19 @@
+body{
+  background-image: url("aboutus.PNG");
+   background-size: cover;
+}
+
+.txt{
+  color: white;
+  font-style: normal;
+  font-size: 20px;
+  font-family: 'Muli', sans-serif;
+
+}
+
+h1{
+  font-size: 50px;
+  font-style: normal;
+  font-family: 'Muli', sans-serif;
+  color: white;
+}

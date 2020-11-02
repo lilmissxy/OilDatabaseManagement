@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Page 1</title>
+  <style media="screen">
+    .top-containe {
+      background-color: #E4F9F5;
+      position: relative;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      color: #fafaf6;
+      font-family: 'Headland One', serif;
+      font-size: 15px;
+    }
+
+    .middle-container {
+      position: relative;
+      padding-top: 50px;
+      padding-bottom: 50px;
+   }
+  </style>
+  <link rel="stylesheet" href="page1.css">
+</head>
+
+<body>
+
+  <div class="top-containe">
+    <h1>Company</h1><br><br>
+  </div>
+
+  <div class="middle-container" >
+    <form action="php\company.php" id="form3" name="form3" method="post">
+      <label style="color: black; margin-left: 40px;margin-top: 10px ; font-size: 25px">Company Name</label><br>
+      <input type="text" name="cname" style="background: transparent;border: 1px solid black  ;border-radius: 10px; margin-left: 40px;  color: black;  height: 25px; width: 200px" required><br><br>
+      <label style="color: black; margin-left: 40px;margin-top: 10px ; font-size: 25px">Country</label><br>
+      <input type="text" name="country" style="background: transparent;border: 1px solid black  ;border-radius: 10px; margin-left: 40px;  color: black;  height: 25px; width: 200px" required><br><br>
+      <label style="color: black; margin-left: 40px;  font-size: 25px">Rig id</label><br>
+      <input type="text" name="rig_id" style="background: transparent;border: 1px solid black; margin-left: 40px;  color: black;border-radius: 10px ; height: 25px;width: 200px" required><br><br>
+      <label style="color: black; margin-left: 40px;margin-top: 10px ; font-size: 25px">Capacity Bought</label><br>
+      <input type="text" name="cap_bought" style="background: transparent;border: 1px solid black  ;border-radius: 10px; margin-left: 40px;  color: black;  height: 25px; width: 200px" required><br><br>
+      <label style="color: black; margin-left: 40px;  font-size: 25px">Total Cost</label><br>
+      <input type="text" name="tot_cost" style="background: transparent;border: 1px solid black; margin-left: 40px;  color: black;border-radius: 10px ; height: 25px;width: 200px" required><br><br>
+      <label style="color: black; margin-left: 40px;  font-size: 25px">Tax</label><br>
+      <input type="text" name="tax" style="background: transparent;border: 1px solid black; margin-left: 40px;  color: black;border-radius: 10px ; height: 25px;width: 200px" required><br><br>
+
+      <input type="submit" name="submit" value="Submit" style="background-color: transparent; margin-left: 40px; border-radius: 10px; color: black;height: 35px;width: 100px; font-size: 20px"><br><br>
+    </form>
+    <a href="demo.php" style="margin-left: 60px">View All</a>
+
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.facebook.com/oilgaspeople/">facebook</a>
+    <a class="footer-link" href="https://www.instagram.com/oilandgaspeople/?hl=en">Instagram</a><br><br>
+    <p class="wite">© 2019 Oil Management System</p>
+  </div>
+</body>
+
+</html>
